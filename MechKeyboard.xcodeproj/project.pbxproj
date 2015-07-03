@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		469CFF071B470C0F001E93EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CFF061B470C0F001E93EB /* AppDelegate.m */; };
+		469CFF091B470C0F001E93EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CFF081B470C0F001E93EB /* main.m */; };
+		469CFF0B1B470C0F001E93EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469CFF0A1B470C0F001E93EB /* Images.xcassets */; };
+		469CFF0E1B470C0F001E93EB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 469CFF0C1B470C0F001E93EB /* MainMenu.xib */; };
+		469CFF1A1B470C0F001E93EB /* MechKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CFF191B470C0F001E93EB /* MechKeyboardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		469CFF141B470C0F001E93EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 469CFEF81B470C0F001E93EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 469CFEFF1B470C0F001E93EB;
+			remoteInfo = MechKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		469CFF001B470C0F001E93EB /* MechKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		469CFF041B470C0F001E93EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469CFF051B470C0F001E93EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		469CFF061B470C0F001E93EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		469CFF081B470C0F001E93EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		469CFF0A1B470C0F001E93EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		469CFF0D1B470C0F001E93EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		469CFF131B470C0F001E93EB /* MechKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		469CFF181B470C0F001E93EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469CFF191B470C0F001E93EB /* MechKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MechKeyboardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469CFEFD1B470C0F001E93EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469CFF101B470C0F001E93EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469CFEF71B470C0F001E93EB = {
+			isa = PBXGroup;
+			children = (
+				469CFF021B470C0F001E93EB /* MechKeyboard */,
+				469CFF161B470C0F001E93EB /* MechKeyboardTests */,
+				469CFF011B470C0F001E93EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		469CFF011B470C0F001E93EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469CFF001B470C0F001E93EB /* MechKeyboard.app */,
+				469CFF131B470C0F001E93EB /* MechKeyboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469CFF021B470C0F001E93EB /* MechKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				469CFF051B470C0F001E93EB /* AppDelegate.h */,
+				469CFF061B470C0F001E93EB /* AppDelegate.m */,
+				469CFF0A1B470C0F001E93EB /* Images.xcassets */,
+				469CFF0C1B470C0F001E93EB /* MainMenu.xib */,
+				469CFF031B470C0F001E93EB /* Supporting Files */,
+			);
+			path = MechKeyboard;
+			sourceTree = "<group>";
+		};
+		469CFF031B470C0F001E93EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				469CFF041B470C0F001E93EB /* Info.plist */,
+				469CFF081B470C0F001E93EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		469CFF161B470C0F001E93EB /* MechKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				469CFF191B470C0F001E93EB /* MechKeyboardTests.m */,
+				469CFF171B470C0F001E93EB /* Supporting Files */,
+			);
+			path = MechKeyboardTests;
+			sourceTree = "<group>";
+		};
+		469CFF171B470C0F001E93EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				469CFF181B470C0F001E93EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469CFEFF1B470C0F001E93EB /* MechKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469CFF1D1B470C0F001E93EB /* Build configuration list for PBXNativeTarget "MechKeyboard" */;
+			buildPhases = (
+				469CFEFC1B470C0F001E93EB /* Sources */,
+				469CFEFD1B470C0F001E93EB /* Frameworks */,
+				469CFEFE1B470C0F001E93EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MechKeyboard;
+			productName = MechKeyboard;
+			productReference = 469CFF001B470C0F001E93EB /* MechKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		469CFF121B470C0F001E93EB /* MechKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469CFF201B470C0F001E93EB /* Build configuration list for PBXNativeTarget "MechKeyboardTests" */;
+			buildPhases = (
+				469CFF0F1B470C0F001E93EB /* Sources */,
+				469CFF101B470C0F001E93EB /* Frameworks */,
+				469CFF111B470C0F001E93EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				469CFF151B470C0F001E93EB /* PBXTargetDependency */,
+			);
+			name = MechKeyboardTests;
+			productName = MechKeyboardTests;
+			productReference = 469CFF131B470C0F001E93EB /* MechKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469CFEF81B470C0F001E93EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Julius Cebreros";
+				TargetAttributes = {
+					469CFEFF1B470C0F001E93EB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					469CFF121B470C0F001E93EB = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 469CFEFF1B470C0F001E93EB;
+					};
+				};
+			};
+			buildConfigurationList = 469CFEFB1B470C0F001E93EB /* Build configuration list for PBXProject "MechKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469CFEF71B470C0F001E93EB;
+			productRefGroup = 469CFF011B470C0F001E93EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469CFEFF1B470C0F001E93EB /* MechKeyboard */,
+				469CFF121B470C0F001E93EB /* MechKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		469CFEFE1B470C0F001E93EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469CFF0B1B470C0F001E93EB /* Images.xcassets in Resources */,
+				469CFF0E1B470C0F001E93EB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469CFF111B470C0F001E93EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469CFEFC1B470C0F001E93EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469CFF091B470C0F001E93EB /* main.m in Sources */,
+				469CFF071B470C0F001E93EB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469CFF0F1B470C0F001E93EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469CFF1A1B470C0F001E93EB /* MechKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		469CFF151B470C0F001E93EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 469CFEFF1B470C0F001E93EB /* MechKeyboard */;
+			targetProxy = 469CFF141B470C0F001E93EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		469CFF0C1B470C0F001E93EB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469CFF0D1B470C0F001E93EB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		469CFF1B1B470C0F001E93EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		469CFF1C1B470C0F001E93EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		469CFF1E1B470C0F001E93EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MechKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		469CFF1F1B470C0F001E93EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MechKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		469CFF211B470C0F001E93EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MechKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MechKeyboard.app/Contents/MacOS/MechKeyboard";
+			};
+			name = Debug;
+		};
+		469CFF221B470C0F001E93EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MechKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MechKeyboard.app/Contents/MacOS/MechKeyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469CFEFB1B470C0F001E93EB /* Build configuration list for PBXProject "MechKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469CFF1B1B470C0F001E93EB /* Debug */,
+				469CFF1C1B470C0F001E93EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469CFF1D1B470C0F001E93EB /* Build configuration list for PBXNativeTarget "MechKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469CFF1E1B470C0F001E93EB /* Debug */,
+				469CFF1F1B470C0F001E93EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		469CFF201B470C0F001E93EB /* Build configuration list for PBXNativeTarget "MechKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469CFF211B470C0F001E93EB /* Debug */,
+				469CFF221B470C0F001E93EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469CFEF81B470C0F001E93EB /* Project object */;
+}
