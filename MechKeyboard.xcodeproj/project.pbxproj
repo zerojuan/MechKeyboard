@@ -19,6 +19,7 @@
 		465F1DB01B47B3B2008D97A9 /* typewriter_161.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DAF1B47B3B2008D97A9 /* typewriter_161.png */; };
 		465F1DB31B47B3BC008D97A9 /* typewriter_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DB11B47B3BC008D97A9 /* typewriter_128.png */; };
 		465F1DB41B47B3BC008D97A9 /* typewriter_1281.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DB21B47B3BC008D97A9 /* typewriter_1281.png */; };
+		465F1DB61B47B75F008D97A9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 465F1DB51B47B75F008D97A9 /* README.md */; };
 		469CFF071B470C0F001E93EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CFF061B470C0F001E93EB /* AppDelegate.m */; };
 		469CFF091B470C0F001E93EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CFF081B470C0F001E93EB /* main.m */; };
 		469CFF0B1B470C0F001E93EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469CFF0A1B470C0F001E93EB /* Images.xcassets */; };
@@ -53,6 +54,7 @@
 		465F1DAF1B47B3B2008D97A9 /* typewriter_161.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_161.png; path = ../../../Downloads/typewriter_161.png; sourceTree = "<group>"; };
 		465F1DB11B47B3BC008D97A9 /* typewriter_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_128.png; path = ../../../Downloads/typewriter_128.png; sourceTree = "<group>"; };
 		465F1DB21B47B3BC008D97A9 /* typewriter_1281.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_1281.png; path = ../../../Downloads/typewriter_1281.png; sourceTree = "<group>"; };
+		465F1DB51B47B75F008D97A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		469CFF001B470C0F001E93EB /* MechKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		469CFF041B470C0F001E93EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		469CFF051B470C0F001E93EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		469CFEF71B470C0F001E93EB = {
 			isa = PBXGroup;
 			children = (
+				465F1DB51B47B75F008D97A9 /* README.md */,
 				469CFF021B470C0F001E93EB /* MechKeyboard */,
 				469CFF161B470C0F001E93EB /* MechKeyboardTests */,
 				469CFF011B470C0F001E93EB /* Products */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465F1DB61B47B75F008D97A9 /* README.md in Sources */,
 				469CFF091B470C0F001E93EB /* main.m in Sources */,
 				465F1DA51B478C0F008D97A9 /* EventMonitor.swift in Sources */,
 				469CFF071B470C0F001E93EB /* AppDelegate.m in Sources */,
