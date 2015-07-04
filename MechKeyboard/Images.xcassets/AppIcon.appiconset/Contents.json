@@ -1,33 +1,31 @@
 {
   "images" : [
     {
-      "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "typewriter_16.png",
+      "size" : "16x16",
       "scale" : "1x"
     },
     {
-      "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "typewriter_16-1.png",
+      "size" : "16x16",
       "scale" : "2x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "typewriter_32.png",
+      "filename" : "typewriter_161.png",
       "scale" : "1x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "typewriter_32-1.png",
+      "filename" : "typewriter_16.png",
       "scale" : "2x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "typewriter_128.png",
+      "filename" : "typewriter_1281.png",
       "scale" : "1x"
     },
     {

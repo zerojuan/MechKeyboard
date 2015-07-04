@@ -16,6 +16,9 @@
 		465F1DAC1B47ABCB008D97A9 /* typewriter_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DA91B47ABCB008D97A9 /* typewriter_16.png */; };
 		465F1DAD1B47ABCB008D97A9 /* typewriter_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DAA1B47ABCB008D97A9 /* typewriter_32.png */; };
 		465F1DAE1B47ABCB008D97A9 /* typewriter_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DAB1B47ABCB008D97A9 /* typewriter_128.png */; };
+		465F1DB01B47B3B2008D97A9 /* typewriter_161.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DAF1B47B3B2008D97A9 /* typewriter_161.png */; };
+		465F1DB31B47B3BC008D97A9 /* typewriter_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DB11B47B3BC008D97A9 /* typewriter_128.png */; };
+		465F1DB41B47B3BC008D97A9 /* typewriter_1281.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DB21B47B3BC008D97A9 /* typewriter_1281.png */; };
 		469CFF071B470C0F001E93EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CFF061B470C0F001E93EB /* AppDelegate.m */; };
 		469CFF091B470C0F001E93EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CFF081B470C0F001E93EB /* main.m */; };
 		469CFF0B1B470C0F001E93EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469CFF0A1B470C0F001E93EB /* Images.xcassets */; };
@@ -47,6 +50,9 @@
 		465F1DA91B47ABCB008D97A9 /* typewriter_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_16.png; path = ../../../Downloads/typewriter_16.png; sourceTree = "<group>"; };
 		465F1DAA1B47ABCB008D97A9 /* typewriter_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_32.png; path = ../../../Downloads/typewriter_32.png; sourceTree = "<group>"; };
 		465F1DAB1B47ABCB008D97A9 /* typewriter_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_128.png; path = ../../../Downloads/typewriter_128.png; sourceTree = "<group>"; };
+		465F1DAF1B47B3B2008D97A9 /* typewriter_161.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_161.png; path = ../../../Downloads/typewriter_161.png; sourceTree = "<group>"; };
+		465F1DB11B47B3BC008D97A9 /* typewriter_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_128.png; path = ../../../Downloads/typewriter_128.png; sourceTree = "<group>"; };
+		465F1DB21B47B3BC008D97A9 /* typewriter_1281.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_1281.png; path = ../../../Downloads/typewriter_1281.png; sourceTree = "<group>"; };
 		469CFF001B470C0F001E93EB /* MechKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		469CFF041B470C0F001E93EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		469CFF051B470C0F001E93EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,7 +106,10 @@
 		469CFF021B470C0F001E93EB /* MechKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				465F1DAF1B47B3B2008D97A9 /* typewriter_161.png */,
 				465F1DA91B47ABCB008D97A9 /* typewriter_16.png */,
+				465F1DB11B47B3BC008D97A9 /* typewriter_128.png */,
+				465F1DB21B47B3BC008D97A9 /* typewriter_1281.png */,
 				465F1DAA1B47ABCB008D97A9 /* typewriter_32.png */,
 				465F1DAB1B47ABCB008D97A9 /* typewriter_128.png */,
 				465F1D951B4759E3008D97A9 /* keyboard11.png */,
@@ -231,9 +240,12 @@
 				465F1D8F1B471D08008D97A9 /* sounds in Resources */,
 				465F1DAC1B47ABCB008D97A9 /* typewriter_16.png in Resources */,
 				465F1DAD1B47ABCB008D97A9 /* typewriter_32.png in Resources */,
+				465F1DB01B47B3B2008D97A9 /* typewriter_161.png in Resources */,
 				469CFF241B470FE7001E93EB /* bat23.png in Resources */,
 				469CFF2A1B471479001E93EB /* mechkeyboard.png in Resources */,
+				465F1DB31B47B3BC008D97A9 /* typewriter_128.png in Resources */,
 				465F1DA31B478497008D97A9 /* PopupViewController.xib in Resources */,
+				465F1DB41B47B3BC008D97A9 /* typewriter_1281.png in Resources */,
 				465F1DAE1B47ABCB008D97A9 /* typewriter_128.png in Resources */,
 				469CFF0B1B470C0F001E93EB /* Images.xcassets in Resources */,
 				465F1D961B4759E3008D97A9 /* keyboard11.png in Resources */,
