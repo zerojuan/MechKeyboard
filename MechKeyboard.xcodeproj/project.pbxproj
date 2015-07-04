@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		465F1D8F1B471D08008D97A9 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 465F1D8E1B471D08008D97A9 /* sounds */; };
+		465F1D961B4759E3008D97A9 /* keyboard11.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1D951B4759E3008D97A9 /* keyboard11.png */; };
+		465F1D981B475D40008D97A9 /* KeySound.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F1D971B475D40008D97A9 /* KeySound.m */; };
+		465F1DA21B478497008D97A9 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465F1DA01B478497008D97A9 /* PopupViewController.swift */; };
+		465F1DA31B478497008D97A9 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DA11B478497008D97A9 /* PopupViewController.xib */; };
+		465F1DA51B478C0F008D97A9 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465F1DA41B478C0F008D97A9 /* EventMonitor.swift */; };
+		465F1DAC1B47ABCB008D97A9 /* typewriter_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DA91B47ABCB008D97A9 /* typewriter_16.png */; };
+		465F1DAD1B47ABCB008D97A9 /* typewriter_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DAA1B47ABCB008D97A9 /* typewriter_32.png */; };
+		465F1DAE1B47ABCB008D97A9 /* typewriter_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 465F1DAB1B47ABCB008D97A9 /* typewriter_128.png */; };
 		469CFF071B470C0F001E93EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CFF061B470C0F001E93EB /* AppDelegate.m */; };
 		469CFF091B470C0F001E93EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CFF081B470C0F001E93EB /* main.m */; };
 		469CFF0B1B470C0F001E93EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469CFF0A1B470C0F001E93EB /* Images.xcassets */; };
 		469CFF0E1B470C0F001E93EB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 469CFF0C1B470C0F001E93EB /* MainMenu.xib */; };
 		469CFF1A1B470C0F001E93EB /* MechKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CFF191B470C0F001E93EB /* MechKeyboardTests.m */; };
+		469CFF241B470FE7001E93EB /* bat23.png in Resources */ = {isa = PBXBuildFile; fileRef = 469CFF231B470FE7001E93EB /* bat23.png */; };
+		469CFF2A1B471479001E93EB /* mechkeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 469CFF291B471479001E93EB /* mechkeyboard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		465F1D8E1B471D08008D97A9 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sounds; path = "../../../github/mechanical-keyboard-1/sounds"; sourceTree = "<group>"; };
+		465F1D951B4759E3008D97A9 /* keyboard11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keyboard11.png; path = ../../../Downloads/keyboard11.png; sourceTree = "<group>"; };
+		465F1D971B475D40008D97A9 /* KeySound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeySound.m; sourceTree = "<group>"; };
+		465F1D991B475D56008D97A9 /* KeySound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeySound.h; sourceTree = "<group>"; };
+		465F1DA01B478497008D97A9 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		465F1DA11B478497008D97A9 /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
+		465F1DA41B478C0F008D97A9 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		465F1DA81B47902E008D97A9 /* MechKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MechKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		465F1DA91B47ABCB008D97A9 /* typewriter_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_16.png; path = ../../../Downloads/typewriter_16.png; sourceTree = "<group>"; };
+		465F1DAA1B47ABCB008D97A9 /* typewriter_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_32.png; path = ../../../Downloads/typewriter_32.png; sourceTree = "<group>"; };
+		465F1DAB1B47ABCB008D97A9 /* typewriter_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = typewriter_128.png; path = ../../../Downloads/typewriter_128.png; sourceTree = "<group>"; };
 		469CFF001B470C0F001E93EB /* MechKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		469CFF041B470C0F001E93EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		469CFF051B470C0F001E93EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +57,8 @@
 		469CFF131B470C0F001E93EB /* MechKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		469CFF181B470C0F001E93EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		469CFF191B470C0F001E93EB /* MechKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MechKeyboardTests.m; sourceTree = "<group>"; };
+		469CFF231B470FE7001E93EB /* bat23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bat23.png; path = ../../../Documents/bat23.png; sourceTree = "<group>"; };
+		469CFF291B471479001E93EB /* mechkeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mechkeyboard.png; path = ../../../Downloads/mechkeyboard.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +100,24 @@
 		469CFF021B470C0F001E93EB /* MechKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				465F1DA91B47ABCB008D97A9 /* typewriter_16.png */,
+				465F1DAA1B47ABCB008D97A9 /* typewriter_32.png */,
+				465F1DAB1B47ABCB008D97A9 /* typewriter_128.png */,
+				465F1D951B4759E3008D97A9 /* keyboard11.png */,
+				465F1D8E1B471D08008D97A9 /* sounds */,
+				469CFF291B471479001E93EB /* mechkeyboard.png */,
+				469CFF231B470FE7001E93EB /* bat23.png */,
 				469CFF051B470C0F001E93EB /* AppDelegate.h */,
 				469CFF061B470C0F001E93EB /* AppDelegate.m */,
 				469CFF0A1B470C0F001E93EB /* Images.xcassets */,
 				469CFF0C1B470C0F001E93EB /* MainMenu.xib */,
 				469CFF031B470C0F001E93EB /* Supporting Files */,
+				465F1D971B475D40008D97A9 /* KeySound.m */,
+				465F1D991B475D56008D97A9 /* KeySound.h */,
+				465F1DA01B478497008D97A9 /* PopupViewController.swift */,
+				465F1DA11B478497008D97A9 /* PopupViewController.xib */,
+				465F1DA41B478C0F008D97A9 /* EventMonitor.swift */,
+				465F1DA81B47902E008D97A9 /* MechKeyboard-Bridging-Header.h */,
 			);
 			path = MechKeyboard;
 			sourceTree = "<group>";
@@ -191,7 +228,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465F1D8F1B471D08008D97A9 /* sounds in Resources */,
+				465F1DAC1B47ABCB008D97A9 /* typewriter_16.png in Resources */,
+				465F1DAD1B47ABCB008D97A9 /* typewriter_32.png in Resources */,
+				469CFF241B470FE7001E93EB /* bat23.png in Resources */,
+				469CFF2A1B471479001E93EB /* mechkeyboard.png in Resources */,
+				465F1DA31B478497008D97A9 /* PopupViewController.xib in Resources */,
+				465F1DAE1B47ABCB008D97A9 /* typewriter_128.png in Resources */,
 				469CFF0B1B470C0F001E93EB /* Images.xcassets in Resources */,
+				465F1D961B4759E3008D97A9 /* keyboard11.png in Resources */,
 				469CFF0E1B470C0F001E93EB /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				469CFF091B470C0F001E93EB /* main.m in Sources */,
+				465F1DA51B478C0F008D97A9 /* EventMonitor.swift in Sources */,
 				469CFF071B470C0F001E93EB /* AppDelegate.m in Sources */,
+				465F1D981B475D40008D97A9 /* KeySound.m in Sources */,
+				465F1DA21B478497008D97A9 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,10 +376,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MechKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MechKeyboard/MechKeyboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -339,10 +390,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MechKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MechKeyboard/MechKeyboard-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -401,6 +454,7 @@
 				469CFF1F1B470C0F001E93EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		469CFF201B470C0F001E93EB /* Build configuration list for PBXNativeTarget "MechKeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +463,7 @@
 				469CFF221B470C0F001E93EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
