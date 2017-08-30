@@ -38,7 +38,7 @@
                     </connections>
                 </button>
                 <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BYZ-kY-2gw">
-                    <rect key="frame" x="72" y="34" width="96" height="21"/>
+                    <rect key="frame" x="72" y="34" width="96" height="20"/>
                     <sliderCell key="cell" state="on" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="above" sliderType="linear" id="i9Y-68-HDD"/>
                     <connections>
                         <action selector="adjustVolume:" target="-2" id="uaA-c8-GTy"/>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F20C4781-A4A9-4F1A-AD05-85DC1EBC29F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B22421AC7B0ED5588B7643F10E42B3A113FD400</key>
+		<string>https://github.com/zerojuan/MechKeyboard.git</string>
+		<key>DEB42977A0D8F2578B696173EAB63BCA8BA80DD6</key>
+		<string>https://github.com/zerojuan/mechanical-keyboard-1</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MechKeyboard.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B22421AC7B0ED5588B7643F10E42B3A113FD400</key>
+		<string>../..</string>
+		<key>DEB42977A0D8F2578B696173EAB63BCA8BA80DD6</key>
+		<string>../../../github/mechanical-keyboard-1</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zerojuan/MechKeyboard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3B22421AC7B0ED5588B7643F10E42B3A113FD400</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DEB42977A0D8F2578B696173EAB63BCA8BA80DD6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mechanical-keyboard-1</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B22421AC7B0ED5588B7643F10E42B3A113FD400</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MechKeyboard</string>
+		</dict>
+	</array>
+</dict>
+</plist>

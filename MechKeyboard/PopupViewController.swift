@@ -10,7 +10,7 @@ import Cocoa
 
 class PopupViewController: NSViewController {
     var volume: Float = 0.0;
-    var callback: Selector = nil;
+    var callback: Selector? = nil;
     @IBOutlet var volumeSlider: NSSlider!
     
     
@@ -23,19 +23,19 @@ class PopupViewController: NSViewController {
     }
 
     
-    func setControllerVolume(v:Float){
+    func setControllerVolume(_ v:Float){
         volume = v;
     }
     
 }
 
 extension PopupViewController {
-    @IBAction func adjustVolume(sender: NSSlider) {
+    @IBAction func adjustVolume(_ sender: NSSlider) {
         self.volume = (Float)(sender.integerValue) / 100;
-        NSNotificationCenter.defaultCenter().postNotificationName("AdjustVolume", object:self);
+        NotificationCenter.default.post(name: Notification.Name(rawValue: "AdjustVolume"), object:self);
     }
     
-    @IBAction func quit(sender: NSButton) {
-        NSApplication.sharedApplication().terminate(sender)
+    @IBAction func quit(_ sender: NSButton) {
+        NSApplication.shared().terminate(sender)
     }
 }
